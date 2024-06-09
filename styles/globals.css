@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+.custom-bg {
+    background-color: #dfdfdfb4; /* Replace with your custom color */
+    padding: 2rem;
+    color: rgb(6 95 70);
+    border-radius: 1rem;
+  }
