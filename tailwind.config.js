@@ -16,6 +16,10 @@ module.exports = {
       },
     },
   },
+  extends: [
+    //...
+    'plugin:@next/next/recommended',
+  ],
   darkMode: "class",
   
   plugins: [nextui({
