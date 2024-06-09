@@ -125,7 +125,7 @@ export default function CreatePage() {
 
 
             <Button onPress={onOpen} className="custom-bg">
-                <h4 className={title({ color: "black" })}>Visualize</h4></Button>
+                <h4 className={title({ color: "green" })}>Visualize</h4></Button>
 
             <Modal
                 isOpen={isOpen}

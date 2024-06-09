@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className={subtitle({ class: "mt-4" })}>
           <b>Animated, Fun, Learning</b>. That you won't forget.
         </h2>
-        <Spacer y={30} />
+        <Spacer y={36} />
         <Card className="bg-white p-4">
           <CardHeader className="text-black font-bold">
             What can you do?
@@ -48,7 +48,7 @@ export default function Home() {
           })}`}
           href={siteConfig.links.create}
         >
-          <h3 className={title({ color: "black" })}
+          <h3 className={title({ color: "green" })}
                >Create Now</h3>
         </Link>
 
