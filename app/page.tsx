@@ -25,7 +25,7 @@ export default function Home() {
         <h2 className={subtitle({ class: "mt-4" })}>
           <b>Animated, Fun, Learning</b>. That you won't forget.
         </h2>
-        <Spacer y={36} />
+        <Spacer y={10} />
         <Card className="bg-white p-4">
           <CardHeader className="text-black font-bold">
             What can you do?

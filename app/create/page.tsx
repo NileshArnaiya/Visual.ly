@@ -72,6 +72,8 @@ export default function CreatePage() {
                     </Select>
                 </div>
                 </div>
+                <Spacer y={2} />
+                {/* <Spacer y = {5} /> */}
                 <div className="flex gap-4 max-w-500">
                 <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
                     <Select
