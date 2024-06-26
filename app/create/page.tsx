@@ -9,10 +9,11 @@ import { LockIcon } from './LockIcon';
 import { Select, SelectSection, SelectItem } from "@nextui-org/select";
 import { celebrities, learningstyles, allLanguagesoftheworld, animationStyles, characters } from "./data";
 import { Textarea } from "@nextui-org/react";
+
 export default function CreatePage() {
     const { isOpen, onOpen, onOpenChange } = useDisclosure();
     return (
-        <div className='max-w-1200 w-1200'>
+        <div className='max-w-1400 w-1400'>
             <Card className="p-4">
                 <CardHeader className="text-black font-bold">
                     Welcome to the new way of learning experience from Visual.ly
@@ -24,7 +25,7 @@ export default function CreatePage() {
 
             <Spacer y={4} />
 
-            <div className="grid grid-cols-4 gap-4 p-1">
+            <div className="grid grid-cols-2 gap-4 p-4">
                 <Card className="p-2">
                     <CardHeader className='font-semibold'>What is a neural network?</CardHeader>
                     <CardBody> Call Dexter to teach me AI 101</CardBody>
@@ -44,7 +45,7 @@ export default function CreatePage() {
             </div>
 
             <Spacer y={5} />
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 0.3fr)', gap: '0.3rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem' }}>
                 <Select
                     label="Select a celebrity"
                     className="max-w-xs font-bold"
@@ -84,7 +85,7 @@ export default function CreatePage() {
 
             <Spacer y={2} />
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 0.3fr)', gap: '0.28rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
                 <Select
                     label="Select Language"
                     className="max-w-xs font-bold"
