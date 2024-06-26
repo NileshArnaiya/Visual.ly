@@ -100,8 +100,6 @@ export default function CreatePage() {
                 <Select
                     label="Animation Style"
                     className="max-w-xs font-bold"
-                    scrollShadowProps={{ disable: true }}
-                    showScrollIndicators={true}
                     style={{ backgroundColor: 'floralwhite', maxWidth: '300px' }}
                 >
                     {animationStyles.map((animation) => (
@@ -131,7 +129,7 @@ export default function CreatePage() {
                 </svg>
 
                 <Textarea
-                    style={{ backgroundColor: '#fff', color: 'black', padding:'1rem' }}
+                    style={{ backgroundColor: '#fff', color: 'black', padding: '1rem' }}
                     type="text"
                     className="appearance-none hover:placeholder-shown:bg-emerald-500 relative text-pink-400 bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5"
                     placeholder="What would you like to learn Today?"
