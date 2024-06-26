@@ -27,9 +27,22 @@ export const siteConfig = {
       href: "/profile",
     },
     {
-      label: "Logout",
-      href: "/logout",
+      label: "Create",
+      href: "/create",
     },
+    {
+      label: "Your Videos",
+      href: "/videos",
+    },
+    {
+      label: "Roadmap",
+      href: "/roadmap",
+    },
+    {
+      label: "About",
+      href: "/about",
+    },
+
   ],
   links: {
     create:"/create",

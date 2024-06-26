@@ -3,8 +3,14 @@
 @tailwind utilities;
 /* styles/globals.css */
 .custom-bg {
-    background-color: #dfdfdfb4; /* Replace with your custom color */
+    background-color: floralwhite; /* Replace with your custom color */
     padding: 2rem;
-    color: rgb(6 95 70);
+    color: black;
+    border-color:black;
     border-radius: 1rem;
   }
+
+.btncreatenow{
+
+  color:#ffa949;
+}

@@ -7,12 +7,12 @@ import { Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, useDisclosure
 import { MailIcon } from './MailIcon';
 import { LockIcon } from './LockIcon';
 import { Select, SelectSection, SelectItem } from "@nextui-org/select";
-import { celebrities, learningstyles, allLanguagesoftheworld, animationStyles } from "./data";
+import { celebrities, learningstyles, allLanguagesoftheworld, animationStyles, characters } from "./data";
 import { Textarea } from "@nextui-org/react";
 export default function CreatePage() {
     const { isOpen, onOpen, onOpenChange } = useDisclosure();
     return (
-        <div className='max-w-900 w-900'>
+        <div className='max-w-1200 w-1200'>
             <Card className="p-4">
                 <CardHeader className="text-black font-bold">
                     Welcome to the new learning experience from Visual.ly
@@ -126,8 +126,8 @@ export default function CreatePage() {
             </div>
 
 
-            <Button onPress={onOpen} className="custom-bg">
-                <h4 className={title({ color: "green" })}>Visualize</h4></Button>
+            <Button onPress={onOpen} className="custom-bg" variant='bordered'>
+                <h4 className={title({ color: "black" })}>Visualize</h4></Button>
 
             <Modal
                 isOpen={isOpen}

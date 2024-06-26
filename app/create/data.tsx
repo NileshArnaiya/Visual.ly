@@ -15,7 +15,25 @@ export const celebrities = [
   {key: "muskmelon", label: "Elon musk"}
 ];
 
+export const characters = [
+  {key: "naruto", label: "Naruto"},
+  {key: "bean", label: "Mr bean"},
+  {key: "shinchan", label: "Shinchan"},
+  {key: "dorae", label: "Doraemon"},
+  {key: "dora", label: "Dora the explorer"},
+  {key: "oswald", label: "Oswald"},
+  {key: "popeye", label: "Popeye"},
+  {key: "noddy", label: "Noddy"},
+  {key: "powerpuff", label: "Powerpuff girls"},
+  {key: "dexter", label: "Dexter's"},
+  {key: "rick", label: "Rick & Morty"},
+  {key: "simpsons", label: "simpsons"},
+  {key: "batman", label: "I'm Batman"}
+];
+
+
 export const learningstyles = [
+    {key: "storybook", label: "StoryBook Mode"}, 
     {key: "kurz", label: "Kurzgesagt"},
     {key: "peppa", label: "Peppa Pig"},
     {key: "coco", label: "CocoMelon"},
