@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "Make learning easier with AI Animations",
   navItems: [
     {
-      label: "Learn",
+      label: "Create",
       href: "/create",
     },
     {
@@ -13,8 +13,8 @@ export const siteConfig = {
       href: "/videos",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Roadmap",
+      href: "/roadmap",
     },
     {
       label: "About",
@@ -33,9 +33,10 @@ export const siteConfig = {
   ],
   links: {
     create:"/create",
-    github: "https://github.com/NileshArnaiya",
+    github: "https://github.com/NileshArnaiya/Visual.ly",
     twitter: "https://twitter.com/NileshArnaiya",
-    discord: "https://discord.gg/invite",
-    sponsor: "https://patreon.com/nilesharnaiya",
+    linkedin: "https://linkedin.com/in/NileshArnaiya",
+    instagram: "https://instagram.com/notsohuman.ai",
+    sponsor: "https://buymeacoffee.com/aiforeveryone",
   },
 };
