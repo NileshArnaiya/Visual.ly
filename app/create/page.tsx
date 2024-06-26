@@ -31,8 +31,8 @@ export default function CreatePage() {
                     <CardBody> Call Dexter to teach me AI 101</CardBody>
                 </Card>
                 <Card className='p-2'>
-                    <CardHeader className='font-semibold'>It will be your Personal Mentor</CardHeader>
-                    <CardBody> Invite Tom cruise to mentor me</CardBody>
+                    <CardHeader className='font-semibold'>Meet Nilly your Personal Mentor</CardHeader>
+                    <CardBody> I can invite Tom cruise to mentor you</CardBody>
                 </Card>
                 <Card className='p-2'>
                     <CardHeader className='font-semibold'>Explain the python program</CardHeader>
